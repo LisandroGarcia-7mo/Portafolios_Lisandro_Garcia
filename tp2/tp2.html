@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tareas Inteligente</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Lista de Tareas Inteligente</h1>
+
+        <div class="grupo-entrada">
+            <input type="text" id="entradaTarea" placeholder="Escribe una tarea..." maxlength="60">
+            <button id="botonAgregar">Agregar</button>
+        </div>
+
+        <p id="mensajeError" class="texto-error" ></p>
+
+        <div class="contadores">
+            <span>Total: <b id="contadorTotal">0</b></span>
+            <span>Completadas: <b id="contadorCompletadas">0</b></span>
+            <span>Pendientes: <b id="contadorPendientes">0</b></span>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>Tarea</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla"></tbody>
+        </table>
+    </div>
+
+    <script src="aplicacion.js"></script>
+</body>
+</html>

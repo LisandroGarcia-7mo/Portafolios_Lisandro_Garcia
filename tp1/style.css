@@ -1,0 +1,233 @@
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.FIFAA {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav {
+    background-color: #000;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    border: 1px;
+    border-color: #000;
+    height: 50%;
+}
+
+/*cajas de colores*/
+.al {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.ab {
+    background-color: #27a550;
+}
+
+.ag {
+    background-color: #00a067;
+}
+
+.ar {
+    background-color: #9cc9f2;
+}
+
+.au {
+    background-color: #efb500;
+}
+
+.aa {
+    background-color: #ed3d32;
+}
+
+.br {
+    background-color: #ffcf25;
+}
+
+.be {
+    background-color: #880029;
+    color: #ffffff;
+}
+/*banderas*/
+.bandera{
+    height: 70px;
+    width: 100px;
+}
+
+/*cajas de abajo*/
+.al2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.ab2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.ag2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.ar2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.au2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.aa2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.br2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.be2 {
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+/*texto de caja de abajp*/
+/*caja izquierda*/
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.abb {
+    display: flex;
+    flex-direction: column;
+}
+
+.agg {
+    display: flex;
+    flex-direction: column;
+}
+
+.arr {
+    display: flex;
+    flex-direction: column;
+}
+
+.auu {
+    display: flex;
+    flex-direction: column;
+}
+
+.aaa {
+    display: flex;
+    flex-direction: column;
+}
+
+.brr {
+    display: flex;
+    flex-direction: column;
+}
+
+.bee {
+    display: flex;
+    flex-direction: column;
+}
+
+/*caja derecha*/
+.all2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.abb2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.agg2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.arr2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.auu2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.aaa2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.brr2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bee2 {
+    display: flex;
+    flex-direction: column;
+}

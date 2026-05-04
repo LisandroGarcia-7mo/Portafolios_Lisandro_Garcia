@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contenedor {
+    background: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgb(0, 38, 255); 
+    max-width: 500px; 
+    color: rgb(255, 255, 255);
+}
+
+.grupo-entrada {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 6px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+input:focus {
+    border-color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    border: 1px solid #444; 
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: rgb(50, 50, 50);
+}
+
+.texto-error {
+    color: rgb(255, 0, 0);
+    font-size: 0.85rem;
+    height: 1.2rem;
+    margin: 5px 0;
+}
+
+.contadores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+/* --- ESTILO DE LA TABLA --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #888;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+}
+
+tr {
+    transition: background-color 0.2s;
+}
+
+tr:hover {
+    background-color: #1a1a1a; 
+}
+
+td {
+    padding: 12px 5px;
+    border-bottom: 1px solid rgb(60, 60, 60); 
+    font-size: 0.9rem;
+}
+
+/* Estilo para la columna del checkbox */
+td:nth-child(1) {
+    width: 30px;
+}
+
+/* Texto de la tarea */
+.texto-completado {
+    text-decoration: line-through;
+    color: #666 !important;
+}
+
+/* Columna de la fecha */
+.fecha-tarea {
+    font-size: 0.7rem;
+    color: #6c757d;
+    text-align: right;
+}
+
+/* Ajuste del checkbox para que se vea bien en fondo negro */
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: rgb(0, 38, 255); 
+}
