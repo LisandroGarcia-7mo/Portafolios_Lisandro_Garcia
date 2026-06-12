@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poker vs CPU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1>♠ Poker vs CPU ♥</h1>
+
+        <button onclick="location.href='juegos.html'">Jugar</button>
+        <button onclick="mostrarReglas()">Reglas</button>
+    </div>
+
+    <!-- Ventana de reglas -->
+    <div id="reglas" class="overlay">
+        <div class="modal">
+            <h2>Reglas del Poker</h2>
+
+            <p>
+                El objetivo es conseguir la mejor mano posible usando
+                tus 2 cartas y las 5 cartas de la mesa.
+            </p>
+
+            <h3>Ranking de manos</h3>
+
+            <p>
+                <b>Escalera de Color</b><br>
+                10♠ J♠ Q♠ K♠ A♠
+            </p>
+
+            <p>
+                <b>Poker</b><br>
+                A♥ A♠ A♣ A♦ 7♣
+            </p>
+
+            <p>
+                <b>Full House</b><br>
+                K♠ K♥ K♦ 5♣ 5♥
+            </p>
+
+            <p>
+                <b>Color</b><br>
+                2♠ 5♠ 8♠ J♠ K♠
+            </p>
+
+            <p>
+                <b>Escalera</b><br>
+                5♣ 6♦ 7♠ 8♥ 9♣
+            </p>
+
+            <p>
+                <b>Trío</b><br>
+                Q♣ Q♦ Q♥ 7♠ 2♣
+            </p>
+
+            <p>
+                <b>Doble Pareja</b><br>
+                J♠ J♥ 4♣ 4♦ 9♠
+            </p>
+
+            <p>
+                <b>Pareja</b><br>
+                A♠ A♥ 7♣ 4♦ 2♠
+            </p>
+
+            <p>
+                <b>Carta Alta</b><br>
+                A♠ J♥ 8♣ 6♦ 3♠
+            </p>
+            <button onclick="cerrarReglas()">
+                Cerrar
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function mostrarReglas() {
+            document.getElementById("reglas").style.display = "flex";
+        }
+
+        function cerrarReglas() {
+            document.getElementById("reglas").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

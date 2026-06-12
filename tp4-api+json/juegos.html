@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Partida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>♠ Poker vs CPU ♥</h1>
+
+        <div class="casino">
+            <span id="dinero">Dinero: $1000</span>
+            <span id="apuesta">Apuesta: $0</span>
+            <span id="pot">Bote: $0</span>
+        </div>
+
+        <div id="estado">Pre-Flop</div>
+
+        <div class="botones">
+            <button id="subir">+50</button>
+            <button id="bajar">-50</button>
+            <button id="pedir">Revelar Mesa</button>
+            <button id="quedarse">Quedarse</button>
+            <button id="retirarse">Retirarse</button>
+        </div>
+
+        <h2>Jugador</h2>
+        <div id="jugador"></div>
+
+        <h2>CPU</h2>
+        <div id="cpu"></div>
+
+        <h2>Mesa</h2>
+        <div id="mesa"></div>
+
+        <br>
+    </div>
+
+    <div id="pantalla-fin" class="overlay">
+        <div class="modal">
+            <h2 id="titulo-fin">¡FIN DE LA PARTIDA!</h2>
+            <p id="mensaje-resultado"></p>
+            <div class="botones-modal">
+                <button id="btn-reiniciar">Jugar de Nuevo</button>
+                <button onclick="location.href='index.html'">Volver al Menú</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
