@@ -1,0 +1,27 @@
+*{
+    padding: 0%; margin: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.titulo{
+    text-align: center;
+    text-shadow: 0 0 70px gray;
+    margin: 30px;
+    font-size: 100px;
+}
+.detalle{
+    margin-top: 20px;
+}
+.linea-divisora{
+    border: 2px orangered solid;
+    margin: 20px;
+}
+#detalle-producto{
+    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+    margin: 20px;
+}
+/*{}*/
